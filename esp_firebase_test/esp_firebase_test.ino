@@ -8,8 +8,8 @@
 #define FIREBASE_AUTH "pttqmWyAp4nSbvbfOporVCC4g4kna5MIAADke5sv"
 
 //Wi-Fi settings
-#define WIFI_SSID "OjhaTower"
-#define WIFI_PASSWORD "6083857103"
+#define WIFI_SSID ""
+#define WIFI_PASSWORD ""
 
 // The amount of time the ultrassonic wave will be travelling for
 long duration = 0;
