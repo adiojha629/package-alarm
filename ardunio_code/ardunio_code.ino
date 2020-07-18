@@ -7,7 +7,7 @@ void setup() {
   Serial.begin(9600);
   while(!Serial);
   //while(!Serial1);
-  Serial.println("Input 1 to turn on led and 2 to turn off");
+  //Serial.println("Input 1 to turn on led and 2 to turn off");
 }
 
 void loop() {
