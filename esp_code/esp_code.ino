@@ -15,8 +15,12 @@ void setup()
 
 void loop() {
   // put your main code here, to run repeatedly:
-  Serial.println("1");
-  delay(1000);
-  Serial.println("2");
-  delay(1000);
+  if(WiFi.status() != WL_CONNECTED)
+  {
+    Serial.println("1");
+  }
+  if(WiFi.status() == WL_CONNECTED)
+  {
+     Serial.println("2");
+  }
 }
