@@ -2,14 +2,13 @@
 #include <ESP8266HTTPClient.h>
 #include <ArduinoJson.h>
 
-const char* ssid = "SERVER NAME";
-const char* password = "SERVER PASSWORD";
-
+char* ssid = "";
+char* password = "";
 void setup() 
 {
-  Serial.begin(115200);
+  Serial.begin(9600);
+  
   WiFi.begin(ssid, password);
-
   while (WiFi.status() != WL_CONNECTED) 
   {
     delay(1000);
