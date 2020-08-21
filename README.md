@@ -1,7 +1,7 @@
 # package-alarm
 
 # The Problem
-Is no surprise that more people around the world are getting packages delivered to their homes. However, this cargo is in a very precarious position: it can get stolen easily! According to C+R Research [link](https://www.crresearch.com/blog/2019-package-theft-statistics-report) 36% of people have had a package stolen, and over half of people surveyed revealed that they knew someone who had had a package stolen.
+It is no surprise that more people around the world are getting packages delivered to their homes. However, this cargo is in a very precarious situation: it can get stolen easily! According to C+R Research ([link](https://www.crresearch.com/blog/2019-package-theft-statistics-report)) 36% of people have had a package stolen, and over half of people surveyed revealed that they knew someone who had had a package stolen.
 
 A common solution is door-bell cameras or extra video cameras, but those innovations didn't stop 42% of respondents from saying that they avoid purchasing certain items online due to the threat of theft. 
 
@@ -19,6 +19,3 @@ Our project implementation was limited by the hardware accessible. We list sever
 2. A smaller micro-controller could run the device. The Arduino was needed only to sound the buzzer; in a industrial application a smaller micro-controller (Arduino Nano for example) could perform this task.
 
 3. A Louder buzzer. The small DC buzzer used offers a shrill sound, but the louder the better. An industrial application will require a louder buzzer.
-
-##Closing Remarks
-View the video below to see the device in action. With better materials this device can be put inside Amazon packages, and keep our packages safe!
