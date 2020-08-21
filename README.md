@@ -1,5 +1,6 @@
 # package-alarm
-
+Ardunio Code is the code programmed into the Arduino.
+ESP Code is the code programmed into the ESP.
 # The Problem
 It is no surprise that more people around the world are getting packages delivered to their homes. However, this cargo is in a very precarious situation: it can get stolen easily! According to C+R Research ([link](https://www.crresearch.com/blog/2019-package-theft-statistics-report)) 36% of people have had a package stolen, and over half of people surveyed revealed that they knew someone who had had a package stolen.
 
